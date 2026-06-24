@@ -4,7 +4,7 @@
 просмотра кошелька — баланс, история транзакций и NFT-галерея, по подключённому
 кошельку или любому введённому адресу.
 
-**🔗 Демо: https://echora-1.github.io/SolVIew/**
+[![Демо](https://img.shields.io/badge/демо-online-42b883?style=for-the-badge)](https://echora-1.github.io/SolVIew/)
 
 ## Возможности
 
