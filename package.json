@@ -1,0 +1,40 @@
+{
+  "name": "sol-view",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.5.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.5.1",
+    "@solana/wallet-adapter-phantom": "^0.9.29",
+    "@solana/wallet-adapter-solflare": "^0.6.33",
+    "@solana/web3.js": "^1.98.4",
+    "@vee-validate/zod": "^4.15.1",
+    "pinia": "^3.0.4",
+    "solana-wallets-vue": "^0.7.1",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.38",
+    "vue-router": "^4.6.4",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vue/test-utils": "^2.4.11",
+    "autoprefixer": "^10.5.1",
+    "jsdom": "^29.1.1",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.0",
+    "vite-plugin-node-polyfills": "^0.28.0",
+    "vitest": "^4.1.9",
+    "vue-tsc": "^3.3.5"
+  }
+}
